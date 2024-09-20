@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+.container{
+    padding-top: 2%;
+    max-width: 500px;
+    margin: 30px auto;
+    background: rgb(255, 160, 122);
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.sec-num{
+    /* border: 1px solid black; */
+}
+label{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+input{
+   margin-top:10px;
+    padding:  10px;
+    background:  rgb(240, 128, 128);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+button{
+    width: 4rem;
+    padding: 0.3rem;
+    border: 2px solid white;
+    background: rgb(240, 128, 128);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.row-1{
+    margin-bottom: 10px;
+}
+.ans-clear{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+#answer{
+    display: block;
+    margin: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#reset{
+    width: 8rem;
+    
+}
+@media only screen and (max-width: 321px){
+    .container{
+        max-width: 400px;
+        margin: 10px auto;
+    }
+    h1{
+        text-align: center;
+        padding: 10px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        display: block;
+    }
+    #reset{
+        width: 6rem;
+        margin: 10px auto;
+    }
+    label{
+        margin: 0 auto;
+
+    }
+    input{
+        margin: 0 auto;
+        
+    }
+    .sec-num{
+        margin: 20px 0;
+    }
+    .buttons{
+        margin: 10px auto;
+    }
+}
+@media only screen and (max-width: 375px){
+    .container{
+        max-width: 400px;
+        margin: 10px auto;
+    }
+    h1{
+        text-align: center;
+        padding: 10px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+}
+}
